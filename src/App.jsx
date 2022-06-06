@@ -6,7 +6,6 @@ import Card from "./components/layout/Card";
 import Contador from "./components/contador/Contador";
 import MegaSena from './components/megasena/MegaSena';
 
-
 export default function App(props) {
   return (
     <Container className="App">
