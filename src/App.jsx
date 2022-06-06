@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Card from "./components/layout/Card";
+import Card2 from "./components/layout/Card2";
 
 import Contador from "./components/contador/Contador";
 import MegaSena from './components/megasena/MegaSena';
 import BiscoitoSorte from './components/biscoito-da-sorte/BiscoitoSorte';
-
+import Cronometro from './components/cronômetro/Cronometro';
 
 export default function App(props) {
   return (
@@ -25,6 +26,10 @@ export default function App(props) {
           <Card titulo="#Biscoito da Sorte" cor="#46C9D5">
                 <BiscoitoSorte />
           </Card>
+
+          <Card2 titulo="#Cronômetro" cor="#A8C499">
+              <Cronometro />
+          </Card2>
         </div>
     </Container>
   );
