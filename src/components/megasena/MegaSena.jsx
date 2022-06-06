@@ -48,7 +48,7 @@ export default function MegaSena(props) {
 
 const Container = styled.div`
     button  {
-        background-color: #D6147C;
+        background-color: #5F679D;
 
         border: none;
 
@@ -62,7 +62,7 @@ const Container = styled.div`
     }
 
     button:hover    {
-        background-color: #B9006E;
+        background-color: #434f99;
     }
 `
 

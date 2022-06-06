@@ -5,6 +5,8 @@ import Card from "./components/layout/Card";
 
 import Contador from "./components/contador/Contador";
 import MegaSena from './components/megasena/MegaSena';
+import BiscoitoSorte from './components/biscoito-da-sorte/BiscoitoSorte';
+
 
 export default function App(props) {
   return (
@@ -18,6 +20,10 @@ export default function App(props) {
 
           <Card titulo="#MegaSena" cor="#5F679D">
               <MegaSena quantidade={7} />
+          </Card>
+
+          <Card titulo="#Biscoito da Sorte" cor="#46C9D5">
+                <BiscoitoSorte />
           </Card>
         </div>
     </Container>

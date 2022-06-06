@@ -17,6 +17,8 @@ const Div = styled.div`
         border-radius: 8px;
 
         color: #00ADE3;
+
+        padding: 10px;
     }
 
     button:hover    {
